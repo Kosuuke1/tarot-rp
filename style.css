@@ -31,8 +31,9 @@ body {
     perspective: 1000px; /* Donne de la profondeur à la carte */
     border-radius: 10px; /* Coins arrondis */
     cursor: pointer; /* Change le curseur pour l'interaction */
-    transition: transform 1s; /* Transitions d'animation */
+    transition: transform 1s, box-shadow 0.3s ease-in-out; /* Animation fluide */
     margin: 0; /* Retirer toute marge */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Ombre portée */
 }
 
 .carte img {
