@@ -32,7 +32,7 @@ body {
     width: 100%;
     height: 100%;
     backface-visibility: hidden; /* Cache la face arrière lors du retournement */
-    border-radius: 20px; /* Coins arrondis */
+    border-radius: 10px; /* Coins arrondis */
     transition: transform 1s; /* Durée de l'animation */
 }
 
