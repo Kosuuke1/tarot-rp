@@ -84,7 +84,7 @@ body {
     text-align: justify;
     text-justify: distribute;
     text-align-last: left;
-    vertical-align: middle;
+    vertical-align: top;
     hyphens: auto;
     word-spacing: -0.5px;    
     font-size: 16px;
