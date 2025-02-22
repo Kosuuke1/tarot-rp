@@ -7,13 +7,21 @@ const cartes = [
     { nom: "Le Pape", image: "pape.jpg", description: "Conseil, spiritualité..." }
 ];
 
+let isOn = false;
+
 function tirerCartes() {
-    let tirage = cartes.sort(() => Math.random() - 0.5).slice(0, 3);
+    isOn = !isOn;
+    const carte = document.querySelector('.carte');
+    const carteVerso = document.querySelector('.carte-verso img');
+
+    const indexAleatoire = Math.floor(Math.random() * cartes.length);
     
-    tirage.forEach((carte, index) => {
-        let divCarte = document.getElementById(carte${index + 1});
-        divCarte.innerHTML = <img src="${carte.image}" alt="${carte.nom}" width="100"><p>${carte.nom}</p>;
-    });
+    if (isOn)
+    {
+        carteVerso.src = `images/${cartes[indexAleatoire].image}`;
+    }
+    // Ajoute la classe pour faire tourner la carte
+    carte.classList.toggle('tournee');
 }
 
 // 🔄 Ajout du swipe (glissement) pour tirer les cartes
