@@ -1,7 +1,7 @@
 const cartes = [
     { nom: "Le Mat", image: "mat.jpg", description: "Le commencement, l’aventure..." },
     { nom: "Le Bateleur", image: "bateleur.jpg", description: "Nouvelles opportunités, initiative..." },
-    { nom: "La Papesse", image: "papesse.jpg", description: "Sagesse, secret, connaissance..." },
+    { nom: "La Papesse", image: "pretresse.jpg", description: "Sagesse, secret, connaissance..." },
     { nom: "L'Impératrice", image: "imperatrice.jpg", description: "Créativité, intuition..." },
     { nom: "L'Empereur", image: "empereur.jpg", description: "Stabilité, autorité..." },
     { nom: "Le Pape", image: "pape.jpg", description: "Conseil, spiritualité..." }
