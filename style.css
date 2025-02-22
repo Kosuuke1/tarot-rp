@@ -11,8 +11,6 @@ body {
     background-color: #262e30;
     background-image: url('images/fond.jpg'); /* Image de fond */
     background-size: contain;
-    background-position: center; /* Centre l'image */
-    background-attachment: fixed; /* L'image reste fixe lorsqu'on fait défiler la page */
 }
 
 /* Conteneur des cartes */
@@ -31,6 +29,8 @@ body {
     height: 200px;
     perspective: 1000px; /* Donne de la profondeur à la carte */
     cursor: pointer; /* Change le curseur pour l'interaction */
+    transition: transform 1s; /* Transitions d'animation */
+    margin: 0; /* Retirer toute marge */
 }
 
 /* Faces de la carte : avant et arrière */
