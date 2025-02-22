@@ -33,7 +33,6 @@ body {
     cursor: pointer; /* Change le curseur pour l'interaction */
     transition: transform 1s, box-shadow 0.3s ease-in-out; /* Animation fluide */
     margin: 0; /* Retirer toute marge */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Ombre portée */
 }
 
 .carte img {
@@ -64,7 +63,8 @@ body {
 
 /* Animation de retournement lors du clic */
 .carte.tournee .carte-recto {
-    transform: rotateY(180deg); /* Face avant (dos) tourne */
+    transform: rotateY(180deg); /* Face avant (dos) tourne */    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Ombre portée */
 }
 
 .carte.tournee .carte-verso {
