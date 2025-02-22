@@ -25,12 +25,17 @@ body {
 
 /* Styles pour la carte */
 .carte {
-    width: 120px;
-    height: 200px;
+    width: 240px;
+    height: 400px;
     perspective: 1000px; /* Donne de la profondeur à la carte */
     cursor: pointer; /* Change le curseur pour l'interaction */
     transition: transform 1s; /* Transitions d'animation */
     margin: 0; /* Retirer toute marge */
+}
+
+.carte img {
+    width: 100%;
+    height: auto;
 }
 
 /* Faces de la carte : avant et arrière */

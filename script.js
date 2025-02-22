@@ -19,24 +19,27 @@ function tirerCartes() {
     if (isOn)
     {
         carteVerso.src = `images/${cartes[indexAleatoire].image}`;
+        carte.classList.toggle('tournee');
+    }
+    else
+    {
+        carte.classList.remove('tournee');
     }
     // Ajoute la classe pour faire tourner la carte
-    carte.classList.toggle('tournee');
 }
 
 // 🔄 Ajout du swipe (glissement) pour tirer les cartes
 let startX = 0;
 
-document.addEventListener("touchstart", (e) => {
+const carteHTML = document.querySelector('.carte');
+
+carteHTML.addEventListener("touchstart", (e) => {
     startX = e.touches[0].clientX;
 });
 
-document.addEventListener("touchend", (e) => {
+carteHTML.addEventListener("touchend", (e) => {
     let endX = e.changedTouches[0].clientX;
-    if (Math.abs(startX - endX) > 50) { // Si le swipe est assez long
+    if (Math.abs(startX - endX) > 20) { // Si le swipe est assez long
         tirerCartes();
     }
 }); 
-document.addEventListener("click", function() {
-    tirerCartes();
-});
