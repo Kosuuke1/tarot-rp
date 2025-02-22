@@ -41,11 +41,6 @@ body {
     height: auto;
 }
 
-.carte:hover {
-    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5); /* Lueur Externe */
-    transform: scale(1.05); /* Légère augmentation de taille */
-}
-
 /* Faces de la carte : avant et arrière */
 .carte-face {
     position: absolute;
@@ -74,4 +69,17 @@ body {
 
 .carte.tournee .carte-verso {
     transform: rotateY(360deg); /* Face arrière (carte) tourne */
+}
+
+.description-carte {
+    width: 80%; /* Largeur adaptable */
+    max-width: 300px; /* Limite pour garder une bonne lisibilité */
+    margin-top: 20px; /* Espace entre la carte et le texte */
+    padding: 15px;
+    background-color: #F5E2D1; /* Couleur de fond */
+    color: #262E30; /* Couleur du texte */
+    border-radius: 15px; /* Coins arrondis */
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Légère ombre */
 }
