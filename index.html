@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Divinatoire</title>
+    <title>Tirage de Tarot</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Tarot RP">
-    <link rel="apple-touch-icon" href="icon.png">
-
 </head>
 <body>
-    <h1>Tirage de Tarot</h1>
-    <button id="tirer">Tirer les cartes</button>
-    <div class="cartes-container">
-        <div class="carte" id="carte1"></div>
-        <div class="carte" id="carte2"></div>
-        <div class="carte" id="carte3"></div>
+    <div class="tarot-container">
+        <div class="carte" onclick="tirerCarte()">
+            <div class="carte-face carte-recto">
+                <img src="images/dos.jpg" alt="Dos de carte" />
+            </div>
+            <div class="carte-face carte-verso">
+                <!-- L'image de la carte tirée sera insérée via JS -->
+            </div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
