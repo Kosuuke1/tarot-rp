@@ -83,3 +83,18 @@ body {
     font-size: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Légère ombre */
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#texte-carte.transition
+{
+    opacity: 1;
+    animation: fadeIn 1s;
+}
+
+.carte-verso img.reverse {
+    transform: scale(-1, -1);
+}
