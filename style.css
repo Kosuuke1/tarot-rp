@@ -82,4 +82,9 @@ body {
     text-align: center;
     font-size: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Légère ombre */
+    display: flex;
+    flex-direction: column; /* Place les éléments en colonne (verticalement) */
+    align-items: center; /* Centre les éléments horizontalement */
+    justify-content: center; /* Centre aussi verticalement si besoin */
+    width: 100%;
 }
