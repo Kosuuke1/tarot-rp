@@ -29,3 +29,6 @@ document.addEventListener("touchend", (e) => {
         tirerCartes();
     }
 }); 
+document.addEventListener("click", function() {
+    tirerCartes();
+});
