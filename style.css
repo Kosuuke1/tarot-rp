@@ -79,7 +79,11 @@ body {
     background-color: #F5E2D1; /* Couleur de fond */
     color: #262E30; /* Couleur du texte */
     border-radius: 10px; /* Coins arrondis */
-    text-align: center;
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
+    hyphens: auto;
+    word-spacing: -0.5px;    
     font-size: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Légère ombre */
 }
