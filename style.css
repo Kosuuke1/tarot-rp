@@ -74,11 +74,11 @@ body {
 .description-carte {
     width: 80%; /* Largeur adaptable */
     max-width: 300px; /* Limite pour garder une bonne lisibilité */
-    margin-top: 300px; /* Espace entre la carte et le texte */
+    margin-top: 20px; /* Espace entre la carte et le texte */
     padding: 15px;
     background-color: #F5E2D1; /* Couleur de fond */
     color: #262E30; /* Couleur du texte */
-    border-radius: 15px; /* Coins arrondis */
+    border-radius: 10px; /* Coins arrondis */
     text-align: center;
     font-size: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Légère ombre */
