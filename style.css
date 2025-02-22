@@ -11,6 +11,8 @@ body {
     background-color: #262e30;
     background-image: url('images/fond.jpg'); /* Image de fond */
     background-size: contain;
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed; /* L'image reste fixe lorsqu'on fait défiler la page */
 }
 
 /* Conteneur des cartes */
@@ -18,6 +20,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Pour que la carte se place verticalement si besoin */
+    width: 100%;
+    height: 100%;
 }
 
 /* Styles pour la carte */
