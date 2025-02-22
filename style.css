@@ -79,7 +79,7 @@ body {
     background-color: #F5E2D1; /* Couleur de fond */
     color: #262E30; /* Couleur du texte */
     width: 320px; /* Largeur fixe du cadre */
-    max-height: 95px; /* Hauteur fixe du cadre */
+    height: 95px; /* Hauteur fixe du cadre */
     border-radius: 10px; /* Coins arrondis */
     text-align: justify;
     text-justify: distribute;
