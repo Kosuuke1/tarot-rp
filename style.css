@@ -107,3 +107,13 @@ body {
 .carte-verso img.reverse {
     transform: scale(-1, -1);
 }
+
+.logo {
+    margin-bottom: 20px; /* Espace entre le logo et la carte */
+    text-align: center;
+}
+
+.logo img {
+    width: 150 px;
+    height: auto;
+}
