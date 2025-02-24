@@ -75,6 +75,7 @@ body {
     width: 80%; /* Largeur adaptable */
     max-width: 300px; /* Limite pour garder une bonne lisibilité */
     margin-top: 20px; /* Espace entre la carte et le texte */
+    margin-bottom: 30px; /* Espace entre le cadre et le bas de la page */
     padding: 10px;
     background-color: #F5E2D1; /* Couleur de fond */
     color: #262E30; /* Couleur du texte */
@@ -109,11 +110,11 @@ body {
 }
 
 .logo {
-    margin-bottom: 20px; /* Espace entre le logo et la carte */
+    margin-bottom: 10px; /* Espace entre le logo et la carte */
     text-align: center;
 }
 
 .logo img {
-    width: 150 px;
+    width: 120 px;
     height: auto;
 }
