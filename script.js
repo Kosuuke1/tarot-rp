@@ -33,9 +33,9 @@ function tirerCartes() {
     const indexAleatoire = Math.floor(Math.random() * cartes.length);
     
     // Est-ce que la carte est inversée ?
-    const reverseOrNotValue = Math.random() * 2;
+    const reverseOrNotValue = Math.random() * 10;
     let reverseCard = false;
-    if (reverseOrNotValue >= 1)
+    if (reverseOrNotValue >= 9)
     {
         reverseCard = true;
     }
