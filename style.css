@@ -8,9 +8,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #262e30;
-    background-image: url('images/fondrepeat.jpg'); /* Image de fond */
-    background-repeat: repeat; /* Répète l'image horizontalement et verticalement */
+    background-color: #ff00ff;
+    /*background-image: url('images/fondrepeat.jpg'); /* Image de fond */
+    /*background-repeat: repeat; /* Répète l'image horizontalement et verticalement */
 }
 
 /* Conteneur des cartes */
